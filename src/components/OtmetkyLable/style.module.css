@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.header {
+    grid-area: h;
+    background-color: #f7f9fb;
+    color: #394557;
+    border-radius: 0px 0px 25px 25px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "l m";
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    
+}
+
+.header img {
+    width: 20px;
+}
+
+
+.header h1{
+    font-size: 30px;
+}
+
+.header h2{
+    position: relative;
+    top: -20px;
+    font-size: 14px;
+    font-weight: 30px;
+}
+
+.otmetkyLable{
+    grid-area: l;
+    display: block;
+    margin-left: 20px;
+}
+
+

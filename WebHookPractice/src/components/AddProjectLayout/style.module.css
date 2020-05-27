@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.wrapper{
+    top: 100px;
+    grid-area: n;
+    padding: 20px;
+    background-color: #f7f9fb;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: #394557;
+    border-radius: 25px;
+    
+}
+
+.subHeader img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 15px;
+    padding-right: 20px;
+}
+.subHeader h1{
+   font-size: 32px;
+}
+
+.subHeader h2{
+    position: relative;
+    top: -20px;
+    font-size: 12px;
+    color: #54647c;
+}
+
+.addImageButton{
+    display: inline-flex;
+}
+
+.subHeader{
+    display: inline-flex;
+}
+
+.imageMiniatures img{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    padding-right: 10px;
+}
+
+.addImageButton{
+  position: relative;
+  float: right;
+}
+
+input{
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid #96a1b1;
+    width: 500px;
+    height: 50px;
+
+}
+
+select{
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid #96a1b1;
+    width: 500px;
+    height: 50px;
+}
+
+textarea{
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid #96a1b1;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.wrapper NavLink{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+
+
+
+.SubmitButton{
+    font-size: 40px;
+    margin: auto;
+}

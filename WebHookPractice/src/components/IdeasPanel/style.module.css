@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.sortButton{
+    display: inline;
+    padding-right: 300px;
+}
+
+.ideasCounter{
+    display: inline;
+}
